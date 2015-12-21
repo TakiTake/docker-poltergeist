@@ -15,4 +15,4 @@ RUN git clone --recurse-submodules https://github.com/ariya/phantomjs.git /usr/l
   && ln -s /usr/local/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
 
 # Cache poltergeist gem
-RUN gem install poltergeist
+RUN gem install poltergeist -v 1.8.1
